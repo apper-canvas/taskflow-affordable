@@ -152,7 +152,7 @@ const HomePage = () => {
   };
 
   const filteredTasks = tasks.filter(task => {
-    const matchesSearch = task.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+const matchesSearch = task.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                          task.description?.toLowerCase().includes(searchQuery.toLowerCase());
 
     const matchesCategory = activeFilters.category === 'all' || task.category === activeFilters.category;
@@ -164,7 +164,7 @@ const HomePage = () => {
     return matchesSearch && matchesCategory && matchesPriority && matchesStatus;
   });
 
-  const todaysTasks = tasks.filter(task => !task.completed && task.dueDate && isToday(parseISO(task.dueDate)));
+const todaysTasks = tasks.filter(task => !task.completed && task.dueDate && isToday(parseISO(task.dueDate)));
   const completedToday = tasks.filter(task => task.completed && task.completedAt && isToday(parseISO(task.completedAt)));
   const dailyProgress = todaysTasks.length === 0 ? 0 : Math.round((completedToday.length / (todaysTasks.length + completedToday.length)) * 100);
 
