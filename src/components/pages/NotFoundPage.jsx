@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import ApperIcon from '../components/ApperIcon';
+import ApperIcon from '@/components/ApperIcon';
+import Button from '@/components/atoms/Button';
 
-const NotFound = () => {
+const NotFoundPage = () => {
   const navigate = useNavigate();
 
   return (
@@ -18,24 +19,23 @@ const NotFound = () => {
         >
           <ApperIcon name="FileQuestion" className="w-24 h-24 text-gray-300 mx-auto mb-6" />
         </motion.div>
-        
+
         <h1 className="text-4xl font-heading font-bold text-gray-900 mb-4">Page Not Found</h1>
         <p className="text-gray-600 mb-8 max-w-md mx-auto">
           The page you're looking for doesn't exist. Let's get you back on track.
         </p>
-        
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
+
+        <Button
+          motionProps={{ whileHover: { scale: 1.05 }, whileTap: { scale: 0.95 } }}
           onClick={() => navigate('/tasks')}
-          className="px-6 py-3 bg-primary text-white rounded-lg hover:brightness-110 transition-all shadow-lg"
+          className="bg-primary text-white hover:brightness-110 shadow-lg px-6 py-3"
         >
           <ApperIcon name="ArrowLeft" className="w-4 h-4 inline mr-2" />
           Back to Tasks
-        </motion.button>
+        </Button>
       </motion.div>
     </div>
   );
 };
 
-export default NotFound;
+export default NotFoundPage;
