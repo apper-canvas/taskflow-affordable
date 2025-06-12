@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "title": "Complete quarterly budget review",
+    "description": "Review Q4 financial reports and prepare budget projections for next quarter",
+    "category": "Work",
+    "priority": "high",
+    "dueDate": "2024-01-15",
+    "completed": false,
+    "createdAt": "2024-01-10T09:00:00.000Z",
+    "completedAt": null
+  },
+  {
+    "id": "2",
+    "title": "Schedule dentist appointment",
+    "description": "Annual cleaning and checkup - Dr. Smith's office",
+    "category": "Health",
+    "priority": "medium",
+    "dueDate": "2024-01-20",
+    "completed": false,
+    "createdAt": "2024-01-08T14:30:00.000Z",
+    "completedAt": null
+  },
+  {
+    "id": "3",
+    "title": "Buy groceries for the week",
+    "description": "Milk, bread, eggs, vegetables, chicken, and ingredients for pasta dinner",
+    "category": "Shopping",
+    "priority": "medium",
+    "dueDate": "2024-01-14",
+    "completed": true,
+    "createdAt": "2024-01-12T08:15:00.000Z",
+    "completedAt": "2024-01-13T16:45:00.000Z"
+  },
+  {
+    "id": "4",
+    "title": "Prepare presentation for client meeting",
+    "description": "Create slides for the Q1 marketing strategy proposal - include market analysis and campaign ideas",
+    "category": "Work",
+    "priority": "high",
+    "dueDate": "2024-01-16",
+    "completed": false,
+    "createdAt": "2024-01-09T11:20:00.000Z",
+    "completedAt": null
+  },
+  {
+    "id": "5",
+    "title": "Call mom for her birthday",
+    "description": "Don't forget to wish her happy birthday and ask about the family dinner plans",
+    "category": "Personal",
+    "priority": "high",
+    "dueDate": "2024-01-18",
+    "completed": false,
+    "createdAt": "2024-01-11T19:00:00.000Z",
+    "completedAt": null
+  },
+  {
+    "id": "6",
+    "title": "Update LinkedIn profile",
+    "description": "Add recent project accomplishments and update job description",
+    "category": "Personal",
+    "priority": "low",
+    "dueDate": "2024-01-25",
+    "completed": false,
+    "createdAt": "2024-01-07T13:45:00.000Z",
+    "completedAt": null
+  },
+  {
+    "id": "7",
+    "title": "Go for morning run",
+    "description": "30-minute run around the neighborhood to stay fit",
+    "category": "Health",
+    "priority": "medium",
+    "dueDate": "2024-01-14",
+    "completed": true,
+    "createdAt": "2024-01-13T06:30:00.000Z",
+    "completedAt": "2024-01-14T07:15:00.000Z"
+  }
+]

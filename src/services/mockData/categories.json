@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Work",
+    "color": "#4F46E5",
+    "icon": "Briefcase"
+  },
+  {
+    "id": "2",
+    "name": "Personal",
+    "color": "#7C3AED",
+    "icon": "User"
+  },
+  {
+    "id": "3",
+    "name": "Shopping",
+    "color": "#EC4899",
+    "icon": "ShoppingCart"
+  },
+  {
+    "id": "4",
+    "name": "Health",
+    "color": "#10B981",
+    "icon": "Heart"
+  },
+  {
+    "id": "5",
+    "name": "Finance",
+    "color": "#F59E0B",
+    "icon": "DollarSign"
+  }
+]
